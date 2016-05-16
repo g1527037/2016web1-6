@@ -9,3 +9,27 @@ body{
   border: green 1px solid;
   background-color: white;
 }
+
+.btn{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  margin: 5px;
+  width: 120px;
+  height: 35px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn:active{
+  color: silver;
+}
+
+.btn-submit{
+  background-color: white;
+}
+
+.btn-reset{
+  background-color: red;
+}
+
+
