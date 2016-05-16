@@ -1,12 +1,85 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel=“stylesheet” href=“css/default.css” type=“text/css”>
-    <title>タイトル</title>
-  </head>
-  <body>
-    <h1>見出し</h1>
-    <p>本文</p>
-  </body>
-</html>
+body{
+  background-color: #D0E0C0;
+}
+
+#main{
+  width: 960px;
+  margin: 40px auto;
+  padding: 40px 80px;
+  border: green 1px solid;
+  background-color: white;
+}
+
+.btn{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  margin: 5px;
+  width: 120px;
+  height: 35px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn:active{
+  color: silver;
+}
+
+.btn-submit{
+  background-color: white;
+}
+
+.btn-reset{
+  background-color: red;
+}
+
+#ingredient{
+  border: 2px solid lightcoral;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid lightcoral;
+  background-color: mistyrose;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+td{
+  border: 1px solid lightcoral;
+  padding: 5px;
+  width: 80px;
+  text-align: right;
+}
+
+caption{
+  padding: 5px;
+}
+
+#price{
+  background-color: lightyellow;
+}
+
+thead th, tfoot th{
+  background-color: lightcoral;
+}
+
+thead td{
+  color: white;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+tfoot td{
+  font-weight: bold;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
