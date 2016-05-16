@@ -32,4 +32,54 @@ body{
   background-color: red;
 }
 
+#ingredient{
+  border: 2px solid lightcoral;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid lightcoral;
+  background-color: mistyrose;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+td{
+  border: 1px solid lightcoral;
+  padding: 5px;
+  width: 80px;
+  text-align: right;
+}
+
+caption{
+  padding: 5px;
+}
+
+#price{
+  background-color: lightyellow;
+}
+
+thead th, tfoot th{
+  background-color: lightcoral;
+}
+
+thead td{
+  color: white;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+tfoot td{
+  font-weight: bold;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
 
